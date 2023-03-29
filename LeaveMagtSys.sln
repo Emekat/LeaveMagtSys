@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{C52C3BD9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveMagtSys.Domain", "LeaveMagtSys.Domain\LeaveMagtSys.Domain.csproj", "{834D0347-E20A-428D-9B63-3B9E6B30E576}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveMagtSys.Application", "LeaveMagtSys.Application\LeaveMagtSys.Application.csproj", "{CC1956DF-EB79-4E5B-ACAD-463C3D2C30D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{834D0347-E20A-428D-9B63-3B9E6B30E576}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{834D0347-E20A-428D-9B63-3B9E6B30E576}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{834D0347-E20A-428D-9B63-3B9E6B30E576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC1956DF-EB79-4E5B-ACAD-463C3D2C30D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1956DF-EB79-4E5B-ACAD-463C3D2C30D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1956DF-EB79-4E5B-ACAD-463C3D2C30D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC1956DF-EB79-4E5B-ACAD-463C3D2C30D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{AF602513-A1B6-436D-9177-5560BD256FFC} = {AFC5F7E5-BDC7-4AF9-81F1-A2DD70C06518}
 		{C52C3BD9-C0A3-485D-B8E2-F2C3C6C6EB24} = {AFC5F7E5-BDC7-4AF9-81F1-A2DD70C06518}
 		{834D0347-E20A-428D-9B63-3B9E6B30E576} = {AF602513-A1B6-436D-9177-5560BD256FFC}
+		{CC1956DF-EB79-4E5B-ACAD-463C3D2C30D0} = {AF602513-A1B6-436D-9177-5560BD256FFC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8689E4CC-FB43-495A-A346-1B147132B4FE}
