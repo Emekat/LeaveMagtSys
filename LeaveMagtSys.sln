@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AFC5F7E5-BDC7-4AF9-81F1-A2DD70C06518}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{89061E09-8753-4718-B049-5D624E930528}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{D50345EB-25AA-4414-A0AE-357974135D4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{88017AC7-A0ED-46B8-B3C5-40D906878CCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{AF602513-A1B6-436D-9177-5560BD256FFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{C52C3BD9-C0A3-485D-B8E2-F2C3C6C6EB24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveMagtSys.Domain", "LeaveMagtSys.Domain\LeaveMagtSys.Domain.csproj", "{834D0347-E20A-428D-9B63-3B9E6B30E576}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{834D0347-E20A-428D-9B63-3B9E6B30E576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834D0347-E20A-428D-9B63-3B9E6B30E576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834D0347-E20A-428D-9B63-3B9E6B30E576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834D0347-E20A-428D-9B63-3B9E6B30E576}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D50345EB-25AA-4414-A0AE-357974135D4F} = {AFC5F7E5-BDC7-4AF9-81F1-A2DD70C06518}
+		{88017AC7-A0ED-46B8-B3C5-40D906878CCA} = {AFC5F7E5-BDC7-4AF9-81F1-A2DD70C06518}
+		{AF602513-A1B6-436D-9177-5560BD256FFC} = {AFC5F7E5-BDC7-4AF9-81F1-A2DD70C06518}
+		{C52C3BD9-C0A3-485D-B8E2-F2C3C6C6EB24} = {AFC5F7E5-BDC7-4AF9-81F1-A2DD70C06518}
+		{834D0347-E20A-428D-9B63-3B9E6B30E576} = {AF602513-A1B6-436D-9177-5560BD256FFC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8689E4CC-FB43-495A-A346-1B147132B4FE}
+	EndGlobalSection
+EndGlobal
